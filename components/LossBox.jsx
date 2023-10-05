@@ -1,4 +1,4 @@
-import "css/divlossBox.css";
+import "../public/css/divlossBox.css";
 
 function LossBox(prope) {
   // Reassert the board.
