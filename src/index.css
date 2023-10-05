@@ -1,0 +1,21 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(0deg, rgba(227,218,138,1) 0%, rgba(163,156,96,1) 47%, rgba(132,126,78,1) 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+#root {
+  width: 100%;
+  text-align: -webkit-center;
+}
+@media (max-width: 680px){
+  body{
+    height: 100%;
+  }
+  #root{
+    height: 100%;
+  }
+}

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+.selsct-level > select,
+.selsct-level > span,
+.selsct-level > button {
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Permanent Marker", cursive;
+  border-radius: 10px;
+}
+
+.selsct-level {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 2px solid;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 245, 155, 1) 0%,
+    rgba(195, 187, 114, 1) 47%,
+    rgba(163, 156, 96, 1) 100%
+  );
+  box-shadow: 0px 0px 110px 47px rgba(255, 255, 255, 1);
+}
+.selsct-level > span {
+  font-size: 30px;
+}
+@media (max-width: 680px) {
+  .selsct-level {
+    flex-direction: row;
+    margin: 40px;
+  }
+  
+}
