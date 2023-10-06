@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../public/css/selector.css";
+import "./css/selector.css";
 function SelcteLevel(prope) {
   let [getSelctorValue, setSelctorValue] = useState("1");
   // If it's change it's sent to the function to change the board.

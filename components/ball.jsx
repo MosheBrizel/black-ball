@@ -1,4 +1,4 @@
-import "../public/css/Ball.css";
+import "./css/Ball.css";
 
 function Bool(prope) {
   // Press of the ball will send the index to the function colorTheRiteMove in the game page.

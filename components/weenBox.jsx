@@ -1,4 +1,4 @@
-import '../public/css/divWeenBox.css'
+import './css/divWeenBox.css'
 
 function weenBox(prope) {
   // start the game of the naxt level.

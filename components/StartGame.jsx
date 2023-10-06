@@ -1,4 +1,4 @@
-import "../public/css/startGame.css";
+import "./css/startGame.css";
 
 function StartGame(prope) {
   // start the game on the board.

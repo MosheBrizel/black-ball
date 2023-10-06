@@ -7,7 +7,7 @@ import LossBox from "./LossBox";
 import StartGame from "./StartGame";
 import ButtonToTheInstructions from "./ButtonToTheInstructions";
 
-import "../public/css/game.css";
+import "./css/game.css";
 // The all levels of the game.
 import { objectGame } from "./objectGamo";
 // A function to chack the option in the bord.

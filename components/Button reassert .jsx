@@ -1,4 +1,4 @@
-import '../public/css/Button.css'
+import './css/Button.css'
 function buttonReassert(prope) {
   // Play the function refreshTheGame in the game page.
     function reassert(){
