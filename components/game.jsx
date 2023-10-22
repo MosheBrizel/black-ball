@@ -1,11 +1,9 @@
 import { useState } from "react";
-import Ball from "../components/ball";
 import ButtonReassert from "./Button reassert ";
-import WeenBox from "./weenBox";
 import SelcteLevel from "./SelectorLevel";
-import LossBox from "./LossBox";
 import StartGame from "./StartGame";
 import ButtonToTheInstructions from "./ButtonToTheInstructions";
+import Board from "./Board";
 
 import "./css/game.css";
 // The all levels of the game.
@@ -169,35 +167,7 @@ function Game() {
             </div>
             <div className="div-game">
               <span>Number level : {numberGame}</span>
-              <div className="board">
-                {getListGame.map((item, indexRow) => {
-                  return (
-                    <div key={indexRow} className="line">
-                      {item.map((i, indexColumn) => (
-                        <Ball
-                          func={colorTheRiteMove}
-                          indexRow={indexRow}
-                          indexColumn={indexColumn}
-                          key={indexColumn}
-                          style={i}
-                        />
-                      ))}
-                    </div>
-                  );
-                })}
-                {
-                  // if ween game.
-                  gameWeen === true ? (
-                    <WeenBox func={refreshTheGame} numberGame={numberGame} />
-                  ) : null
-                }
-                {
-                  // if loss game.
-                  gameLoss === true ? (
-                    <LossBox func={refreshTheGame} numberGame={numberGame} />
-                  ) : null
-                }
-              </div>
+              <Board funcRefreshTheGame={refreshTheGame} numberGame={numberGame} gameLoss={gameLoss} gameWeen={gameWeen} funcColorTheRiteMove={colorTheRiteMove} list={getListGame} />
             </div>
 
             <div className="selcte-level">
