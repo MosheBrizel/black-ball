@@ -167,7 +167,14 @@ function Game() {
             </div>
             <div className="div-game">
               <span>Number level : {numberGame}</span>
-              <Board funcRefreshTheGame={refreshTheGame} numberGame={numberGame} gameLoss={gameLoss} gameWeen={gameWeen} funcColorTheRiteMove={colorTheRiteMove} list={getListGame} />
+              <Board
+                funcRefreshTheGame={refreshTheGame}
+                numberGame={numberGame}
+                gameLoss={gameLoss}
+                gameWeen={gameWeen}
+                funcColorTheRiteMove={colorTheRiteMove}
+                list={getListGame}
+              />
             </div>
 
             <div className="selcte-level">

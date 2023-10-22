@@ -1,0 +1,71 @@
+.scroll-mark {
+  border: 5px solid black;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  position: absolute;
+}
+.scroll-mark-line {
+  border: 2.5px solid black;
+  position: absolute;
+  top: 98.75px;
+  left: -25px;
+  width: 250px;
+  height: 0px;
+}
+.scroll-mark-line-left-to-right {
+  transform: rotate(45deg);
+}
+.scroll-mark-line-right-to-left {
+  transform: rotate(135deg);
+}
+#mark1 {
+  top: 45px;
+  left: 45px;
+}
+#mark2 {
+  top: 45px;
+  left: 248px;
+}
+#mark3 {
+  top: 248.5px;
+  left: 45px;
+}
+#mark4 {
+  top: 248.5px;
+  left: 248px;
+}
+
+@media (max-width: 680px) {
+    .scroll-mark {
+        width: 115px;
+        height: 115px;
+      }
+      .scroll-mark-line {
+        top: 60px;
+        left: -20px;
+        width: 150px;
+      }
+      .scroll-mark-line-left-to-right {
+        transform: rotate(45deg);
+      }
+      .scroll-mark-line-right-to-left {
+        transform: rotate(135deg);
+      }
+      #mark1 {
+        top: 27px;
+        left: 27px;
+      }
+      #mark2 {
+        top: 27px;
+        left: 147.5px;
+      }
+      #mark3 {
+        top: 147.5px;
+        left: 27px;
+      }
+      #mark4 {
+        top: 147.5px;
+        left: 147.5px;
+      }
+}

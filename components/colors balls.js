@@ -8,7 +8,7 @@ export const blackBallColor = {
   border: "2px solid",
   boxShadow: "0px 0px 10px 2px rgba(255,255,255,1)",
 };
-export const emptyBallColor = { backgroundColor: "rgba(0, 0, 0, 0)" };
+export const emptyBallColor = { backgroundColor: "#deb887" };
 export const greenBallColor = { backgroundColor: "green" };
 
 

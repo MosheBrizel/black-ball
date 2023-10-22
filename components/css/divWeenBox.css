@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 
 .weembox {
+  z-index: 2;
+
   padding: 10px;
   position: absolute;
   top: 17.5%;
@@ -30,7 +32,7 @@
     top: 22%;
     left: 22%;
     width: 150px;
-    height: 150px; 
+    height: 150px;
   }
   .weembox > h3 {
     margin: 0;

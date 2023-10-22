@@ -1,10 +1,14 @@
 import Ball from "../components/ball";
 import LossBox from "./LossBox";
 import WeenBox from "./weenBox";
-
+import ScrollMark from "./ScrollMark";
 function Board(prmps) {
   return (
     <div className="board">
+      <ScrollMark key={1} id={1} />
+      <ScrollMark key={2} id={2} />
+      <ScrollMark key={3} id={3} />
+      <ScrollMark key={4} id={4} />
       {prmps.list.map((item, indexRow) => {
         return (
           <div key={indexRow} className="line">
