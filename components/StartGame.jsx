@@ -16,36 +16,43 @@ function StartGame(prope) {
         <div className="start-game">
           <h1>Objective</h1>
           <h3>
-            The objective of the game is to remove all of the white balls from
-            the game board, leaving only a single dark ball remaining.
+            Remove all white balls from each level by jumping over them, leaving
+            only one dark ball on the board.
           </h3>
           <h2>How to Play</h2>
           <ul>
             <li>
-              Each game level starts with a pattern of dark and white balls
-              arranged on the game board.
+              Each level displays a pattern of dark and white balls on the game
+              board.
             </li>
             <li>
-              To remove a white ball, you must jump over it with another ball
-              (either white or dark).
+              Click any ball to see possible legal jumps highlighted in green.
             </li>
             <li>
-              You can only jump over one ball at a time, in a straight line into
-              an empty space.
-            </li>
-            <li>You cannot move a ball without jumping over another ball.</li>
-            <li>
-              Once a ball is jumped over, it is removed from the game board.
+              Click a green highlight to make that jump. The chosen ball will
+              move, removing the jumped over ball.
             </li>
             <li>
-              Continue jumping over and removing white balls until only one dark
-              ball remains on the game board to complete the card.
+              Only single jumps are allowed, landing in an empty space
+              horizontally, vertically or diagonally.
             </li>
             <li>
-              There are 47 game levels included, with increasing difficulty
-              levels, plus one bonus card.
+              You must always jump over a ball, never moving without jumping
+              over a ball.
             </li>
-            <li>The game is over once you have completed all game cards.</li>
+            <li>
+              Continue jumping over and removing white balls until just one dark
+              ball remains to clear the level.
+            </li>
+            <li>
+              Advance to the next level by clicking "next" after clearing the
+              board.
+            </li>
+            <li>
+              There are 47 increasingly difficult levels, plus a challenging
+              bonus level.
+            </li>
+            
           </ul>
           <button onClick={toStart}>start</button>
         </div>
